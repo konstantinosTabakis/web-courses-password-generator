@@ -1,8 +1,8 @@
 :root {
-    --background-color: #d2f7f57b;
-    --background-color-image: linear-gradient( to right, #7F7FD5 , #91EAE4);;
-    --background-color-transparent: #d2f7f57b;
-    --primary-color: #7F7FD5;
+    --background-color: #efeeeed7;
+    --background-color-image: linear-gradient( to right, #fcd031d0 , #f55555de), url('https://images.unsplash.com/photo-1677703757300-7e9149ad39ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+    --background-color-transparent: #efeeeed7;
+    --primary-color: #f55555;
     --text-color:#3f3f3f;
     --gray-dark: #e6e6e6;
     /* --container-bg-image: linear-gradient(to right bottom, #02aab0 , #00cdac); */
