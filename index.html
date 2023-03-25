@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Password Generator</title>
+</head>
+
+<body>
+
+    <div class="psw-container">
+        <div class="psw-area">
+            -
+        </div>
+        <div class="psw-utils">
+            <div class="itm heading-itm">
+                <div class="itm-left ">
+                    <button class="btn">Generate</button>
+                    <span>
+                        <i class="icon-basic-sheet-multiple copy-icon"></i>
+                        <p>Password Copied</p>
+                    </span>
+                    <!-- <i class="icon-basic-download copy-icon"></i> -->
+                </div>
+                <div class="itm-right">
+                    <input type="range" min="6" max="20" value="10" class="slider-bar">
+                    <span class="psw-length">10</span>
+                </div>
+            </div>
+            <div class="itm">
+                <label for="uppercase">Uppercase</label>
+                <label class="switch">
+                    <input type="checkbox" id="uppercase" checked>
+                    <span class="slider round"></span>
+                </label>
+
+            </div>
+            <div class="itm">
+                <label for="lowercase">Lowercase</label>
+                <label class="switch">
+                    <input type="checkbox" id="lowercase" checked>
+                    <span class="slider round"></span>
+                </label>
+
+            </div>
+            <div class="itm">
+                <label for="numbers">Numbers</label>
+                <label class="switch">
+                    <input type="checkbox" id="numbers" checked>
+                    <span class="slider round"></span>
+                </label>
+
+            </div>
+            <div class="itm">
+                <label for="special">Special</label>
+                <label class="switch">
+                    <input type="checkbox" id="special">
+                    <span class="slider round"></span>
+                </label>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created by <a href="https://github.com/konstantinosTabakis" target="_blank">Konstantinos</a>. © 2023</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
