@@ -1,7 +1,8 @@
 :root {
-    --background-color: #DEF5E5;
-    --background-color-transparent: #def5e564;
-    --primary-color: #02aab0;
+    --background-color: #d2f7f57b;
+    --background-color-image: linear-gradient( to right, #7F7FD5 , #91EAE4);;
+    --background-color-transparent: #d2f7f57b;
+    --primary-color: #7F7FD5;
     --text-color:#3f3f3f;
     --gray-dark: #e6e6e6;
     /* --container-bg-image: linear-gradient(to right bottom, #02aab0 , #00cdac); */
@@ -30,6 +31,8 @@ body {
     font-family: montserrat, sans-serif;
     min-height: 100vh;
     background-color: var(--background-color);
+    background-image: var(--background-color-image);
+    background-size: cover;
     font-size: 1.6rem;
     color: var(--text-color);
 }
