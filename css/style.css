@@ -1,10 +1,11 @@
 :root {
-    --background-color: #FEFCF3;
-    --background-color-transparent: #fefcf3df;
-    --primary-color: #DBA39A;
+    --background-color: #DEF5E5;
+    --background-color-transparent: #def5e564;
+    --primary-color: #02aab0;
     --text-color:#3f3f3f;
-    --gray-dark: #F5EBE0;
-    --container-bg: linear-gradient(to right bottom, #f5ebe099 30%, #dba39a91 100%);
+    --gray-dark: #e6e6e6;
+    /* --container-bg-image: linear-gradient(to right bottom, #02aab0 , #00cdac); */
+    --container-bg: #fbfbfb;
   }
 
 @font-face {
@@ -38,7 +39,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: var(--container-bg);
+    background: var(--container-bg);
+    /* background-image: var(--container-bg-); */
     padding: 3.2rem;
     width: min(90%, 600px);
     border-radius: 12px;
@@ -93,7 +95,7 @@ body {
     font-size: 1rem;
     font-weight: 600;
     position: absolute;
-    top: -20px;
+    top: -10px;
     width: 100px;
     opacity: 0;
     visibility: hidden;
